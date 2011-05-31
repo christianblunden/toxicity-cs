@@ -1,0 +1,1 @@
+"c:\Program Files\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\Metrics.exe" /f:*.dll /f:*.exe /o:metrics.xml /d:dependencies

@@ -1,0 +1,13 @@
+The output of this project Toxic.exe is used to parse the output of the 
+VS2010 Metrics powertool and produce data for a toxicity chart.
+
+Follow the following steps to use:
+1. Download Visual Studio 2010 Metrics powertool 
+   http://www.microsoft.com/downloads/en/details.aspx?FamilyID=edd1dfb0-b9fe-4e90-b6a6-5ed6f6f6e615
+2. Copy all assemblies into one directory (.dll + .exe) eg: C:\foo
+3. Copy dependencies into dependencies dir eg: C:\foo\dependencies
+4. run batch file from folder eg: C:\foo\run_metrics.bat
+5. This will produce an XML file called VS2010-code-metrics.xml
+6. Run Toxic.exe VS2010-code-metrics.xml to produce scores.csv
+7. Open scores.csv in Excel and create a stacked bar chart from data
+8. Profit
